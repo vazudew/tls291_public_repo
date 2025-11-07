@@ -3,6 +3,9 @@ kind: Service
 metadata:
   name: nginx-service
   namespace: demo-app
+  labels:
+    environment: argo
+    app: nginx
 spec:
   type: NodePort
   selector:
