@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: git@github.com:vazudew/tls_291_initatives.git
-    path: 6_argocd
-    targetRevision: HEAD
+    repoURL: https://github.com/vazudew/tls291_public_repo.git
+    path: argocd_demo
+    targetRevision: main
   destination:
     server: https://kubernetes.default.svc
     namespace: demo-app
@@ -16,3 +16,4 @@ spec:
     automated:
       prune: true
       selfHeal: true
+
