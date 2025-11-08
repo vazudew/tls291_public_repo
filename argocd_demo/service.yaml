@@ -6,6 +6,7 @@ metadata:
   labels:
     environment: argo
     app: nginx
+    func: demo
 spec:
   type: NodePort
   selector:
