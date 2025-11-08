@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/vazudew/tls291_public_repo.git
+    repoURL: git@github.com:/vazudew/tls291_public_repo.git
     path: argocd_demo
     targetRevision: main
   destination:
