@@ -5,3 +5,4 @@ metadata:
   labels:
     environment: argo
     app: nginx
+    func: demo

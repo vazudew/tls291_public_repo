@@ -6,6 +6,7 @@ metadata:
   labels:
     environment: argo
     app: nginx
+    func: demo
 spec:
   replicas: 2
   selector:
@@ -16,6 +17,7 @@ spec:
       labels:
         environment: argo
         app: nginx
+        func: demo
     spec:
       containers:
       - name: nginx
